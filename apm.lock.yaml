@@ -1,0 +1,234 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies:
+- repo_url: mkosir/typescript-style-guide
+  name: typescript-style-guide
+  host: github.com
+  resolved_commit: 170074a0df9b07f4a4a78e3596ec1edf06a14da7
+  resolved_ref: 170074a0df9b07f4a4a78e3596ec1edf06a14da7
+  version: unknown
+  virtual_path: skills/typescript-style-guide
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/typescript-style-guide
+  - .agents/skills/typescript-style-guide/SKILL.md
+  - .agents/skills/typescript-style-guide/references/discriminated-unions.md
+  - .agents/skills/typescript-style-guide/references/functions.md
+  - .agents/skills/typescript-style-guide/references/naming.md
+  - .agents/skills/typescript-style-guide/references/react.md
+  - .agents/skills/typescript-style-guide/references/source-organization.md
+  - .agents/skills/typescript-style-guide/references/tests.md
+  - .agents/skills/typescript-style-guide/references/types.md
+  - .agents/skills/typescript-style-guide/references/variables.md
+  - .claude/skills/typescript-style-guide
+  - .claude/skills/typescript-style-guide/SKILL.md
+  - .claude/skills/typescript-style-guide/references/discriminated-unions.md
+  - .claude/skills/typescript-style-guide/references/functions.md
+  - .claude/skills/typescript-style-guide/references/naming.md
+  - .claude/skills/typescript-style-guide/references/react.md
+  - .claude/skills/typescript-style-guide/references/source-organization.md
+  - .claude/skills/typescript-style-guide/references/tests.md
+  - .claude/skills/typescript-style-guide/references/types.md
+  - .claude/skills/typescript-style-guide/references/variables.md
+  deployed_file_hashes:
+    .agents/skills/typescript-style-guide/SKILL.md: sha256:43bfb7f2ebbe2046774d674b9308fa6434c1d1eccbb0f37e7848b64d9f52e31a
+    .agents/skills/typescript-style-guide/references/discriminated-unions.md: sha256:d269ee20a23c1447d14829a9e22caaa164c5b7065380689ee5cbead45230165c
+    .agents/skills/typescript-style-guide/references/functions.md: sha256:d8e9fea84e071e4aef91c8d908ddb8b72928b2756e0ac4f15907dd9e3769f3ba
+    .agents/skills/typescript-style-guide/references/naming.md: sha256:81610fc8b5a995a4119aa1a4fa88e430a3d21f9e493891472ac683c74c7e7367
+    .agents/skills/typescript-style-guide/references/react.md: sha256:0b060cfb8a68d4d132fe01d145999ba41b77033aaf289706b2abd3b19f0db1e5
+    .agents/skills/typescript-style-guide/references/source-organization.md: sha256:1c1a59ce864fe9cc3369f1e17b851858b1052294822b8e985a421242070d7d8f
+    .agents/skills/typescript-style-guide/references/tests.md: sha256:2dc2c6b5d28c5023c6c67050b3ed05c8650656bea12085233755ee7808b75f59
+    .agents/skills/typescript-style-guide/references/types.md: sha256:c31fd20705b256a88bd25d1b0aa7f519361b6f528a000a845c4fe5f6061ecfc9
+    .agents/skills/typescript-style-guide/references/variables.md: sha256:920fcc7f0130fdc801fae00ca2f246632d0e2437ebc76af751607c0a6f8f5528
+    .claude/skills/typescript-style-guide/SKILL.md: sha256:43bfb7f2ebbe2046774d674b9308fa6434c1d1eccbb0f37e7848b64d9f52e31a
+    .claude/skills/typescript-style-guide/references/discriminated-unions.md: sha256:d269ee20a23c1447d14829a9e22caaa164c5b7065380689ee5cbead45230165c
+    .claude/skills/typescript-style-guide/references/functions.md: sha256:d8e9fea84e071e4aef91c8d908ddb8b72928b2756e0ac4f15907dd9e3769f3ba
+    .claude/skills/typescript-style-guide/references/naming.md: sha256:81610fc8b5a995a4119aa1a4fa88e430a3d21f9e493891472ac683c74c7e7367
+    .claude/skills/typescript-style-guide/references/react.md: sha256:0b060cfb8a68d4d132fe01d145999ba41b77033aaf289706b2abd3b19f0db1e5
+    .claude/skills/typescript-style-guide/references/source-organization.md: sha256:1c1a59ce864fe9cc3369f1e17b851858b1052294822b8e985a421242070d7d8f
+    .claude/skills/typescript-style-guide/references/tests.md: sha256:2dc2c6b5d28c5023c6c67050b3ed05c8650656bea12085233755ee7808b75f59
+    .claude/skills/typescript-style-guide/references/types.md: sha256:c31fd20705b256a88bd25d1b0aa7f519361b6f528a000a845c4fe5f6061ecfc9
+    .claude/skills/typescript-style-guide/references/variables.md: sha256:920fcc7f0130fdc801fae00ca2f246632d0e2437ebc76af751607c0a6f8f5528
+  content_hash: sha256:e326e578212099e052c6422ee857ada0e64e63210c341a7676291c4ef364892c
+deployments:
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: null
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:43bfb7f2ebbe2046774d674b9308fa6434c1d1eccbb0f37e7848b64d9f52e31a
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/discriminated-unions.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:d269ee20a23c1447d14829a9e22caaa164c5b7065380689ee5cbead45230165c
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/functions.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:d8e9fea84e071e4aef91c8d908ddb8b72928b2756e0ac4f15907dd9e3769f3ba
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/naming.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:81610fc8b5a995a4119aa1a4fa88e430a3d21f9e493891472ac683c74c7e7367
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/react.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:0b060cfb8a68d4d132fe01d145999ba41b77033aaf289706b2abd3b19f0db1e5
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/source-organization.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:1c1a59ce864fe9cc3369f1e17b851858b1052294822b8e985a421242070d7d8f
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/tests.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:2dc2c6b5d28c5023c6c67050b3ed05c8650656bea12085233755ee7808b75f59
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/types.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:c31fd20705b256a88bd25d1b0aa7f519361b6f528a000a845c4fe5f6061ecfc9
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/typescript-style-guide/references/variables.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:920fcc7f0130fdc801fae00ca2f246632d0e2437ebc76af751607c0a6f8f5528
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:43bfb7f2ebbe2046774d674b9308fa6434c1d1eccbb0f37e7848b64d9f52e31a
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/discriminated-unions.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:d269ee20a23c1447d14829a9e22caaa164c5b7065380689ee5cbead45230165c
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/functions.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:d8e9fea84e071e4aef91c8d908ddb8b72928b2756e0ac4f15907dd9e3769f3ba
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/naming.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:81610fc8b5a995a4119aa1a4fa88e430a3d21f9e493891472ac683c74c7e7367
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/react.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:0b060cfb8a68d4d132fe01d145999ba41b77033aaf289706b2abd3b19f0db1e5
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/source-organization.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:1c1a59ce864fe9cc3369f1e17b851858b1052294822b8e985a421242070d7d8f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/tests.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:2dc2c6b5d28c5023c6c67050b3ed05c8650656bea12085233755ee7808b75f59
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/types.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:c31fd20705b256a88bd25d1b0aa7f519361b6f528a000a845c4fe5f6061ecfc9
+- kind: project-relative
+  target: claude
+  value: .claude/skills/typescript-style-guide/references/variables.md
+  runtime: null
+  scope: project
+  owners:
+  - mkosir/typescript-style-guide/skills/typescript-style-guide
+  active_owner: mkosir/typescript-style-guide/skills/typescript-style-guide
+  content_hash: sha256:920fcc7f0130fdc801fae00ca2f246632d0e2437ebc76af751607c0a6f8f5528

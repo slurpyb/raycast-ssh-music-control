@@ -1,0 +1,68 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "ssh-music-control",
+  "title": "SSH Music Control",
+  "description": "Control the Music app on a remote Mac over SSH",
+  "icon": "icon.png",
+  "author": "slurpyb",
+  "platforms": [
+    "macOS"
+  ],
+  "categories": [
+    "Media"
+  ],
+  "license": "MIT",
+  "private": true,
+  "commands": [
+    {
+      "name": "previous",
+      "title": "Previous Track",
+      "description": "Restart the current track, or go to the previous one if at the start",
+      "mode": "no-view"
+    },
+    {
+      "name": "play-pause",
+      "title": "Play/Pause",
+      "description": "Play or pause music on the remote Mac",
+      "mode": "no-view"
+    },
+    {
+      "name": "next",
+      "title": "Next Track",
+      "description": "Skip to the next track on the remote Mac",
+      "mode": "no-view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "sshDestination",
+      "title": "SSH Destination",
+      "description": "The Mac that plays your music. Key-based SSH login must already work.",
+      "type": "textfield",
+      "required": true,
+      "placeholder": "user@hostname.local"
+    }
+  ],
+  "scripts": {
+    "dev": "ray develop",
+    "build": "ray build",
+    "lint": "ray lint",
+    "fix-lint": "ray lint --fix"
+  },
+  "dependencies": {
+    "@raycast/api": "^2.14.0",
+    "ts-extras": "^1.3.0",
+    "type-fest": "^5.10.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.2.0",
+    "@types/bun": "^1.4.5",
+    "@types/react": "^19.3.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-typefest": "^1.7.1",
+    "jiti": "^2.7.0",
+    "prettier": "^3.10.1",
+    "typescript": "~6.0",
+    "typescript-eslint": "^8.74.0"
+  }
+}

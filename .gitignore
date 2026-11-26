@@ -1,0 +1,11 @@
+node_modules/
+
+# APM dependencies and generated skills; restore with `apm install --frozen`
+apm_modules/
+.apm-local/
+.agents/skills/
+.claude/skills/
+
+# Raycast
+raycast-env.d.ts
+dist/

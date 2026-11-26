@@ -1,0 +1,16 @@
+name: raycast-ssh-music-control
+version: 1.0.0
+description: APM project for raycast-ssh-music-control
+author: Jordan Sweeting
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-bot, grok-build, hermes, kiro, opencode, vscode, windsurf
+targets:
+  - agent-skills
+  - claude
+dependencies:
+  apm:
+    - mkosir/typescript-style-guide/skills/typescript-style-guide#170074a0df9b07f4a4a78e3596ec1edf06a14da7
+  mcp: []
+includes: auto
+scripts: {}
